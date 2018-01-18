@@ -13,6 +13,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 	</head>
 	<body class="landing">
 
@@ -47,13 +48,15 @@
 							have enough of cats<br />
 							yet...</p>
 							<ul class="actions">
-								<li><a href="gallery.html" class="button special">Gallery</a></li>
+								<li><a href="gallery.html" class="button special" onclick="document.getElementById('playkitten').play()">Gallery</a></li>
 							</ul>
 						</div>
 						<a href="#one" class="more scrolly">Who made this</a>
 					</section>
 
-				
+					<audio id="playkitten">
+						<source src="audio/kitten2.mp3" type="audio/mpeg; codecs=mp3"/>
+					</audio>
 				
 
 				<!-- Footer -->
