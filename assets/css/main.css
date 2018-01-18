@@ -3888,3 +3888,19 @@ img {
     background-size:     cover;
     padding: 5px;
 }
+
+/*contact form styling*/
+
+form {
+	width: 80%;
+	height: 100%;
+	margin: auto;
+}
+
+.form-button {
+	margin-top: 15px;
+}
+
+.form-button:hover {
+	background-color: #383f6e;
+}
