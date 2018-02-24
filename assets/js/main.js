@@ -98,3 +98,6 @@
 	});
 
 })(jQuery);
+
+	// Header button timeout
+	setTimeout(function(){window.location.href='gallery.html'},4000);
